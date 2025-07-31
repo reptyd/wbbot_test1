@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wb-promotion-api
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    plan: free
+    envVars:
+      - key: WB_TOKEN
+        value: "ВСТАВЬ_ТВОЙ_ТОКЕН_ЗДЕСЬ"
