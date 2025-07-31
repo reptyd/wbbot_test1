@@ -6,7 +6,7 @@ import pandas as pd
 
 WB_TOKEN = os.getenv("WB_TOKEN")
 
-URL = "https://advert-api.wb.ru/adv/v1/promotion/count"
+URL = "https://advert-api.wildberries.ru/adv/v1/promotion/count"
 HEADERS = {"Authorization": WB_TOKEN}
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(message)s", datefmt="%H:%M:%S")
